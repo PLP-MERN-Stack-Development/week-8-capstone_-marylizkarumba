@@ -105,7 +105,6 @@ TechTonic operates as a B2C e-commerce platform, generating revenue through:
 ## 🏗️ Project Structure
 
 ```
-=======
 # MERN Stack Capstone Project
 
 This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
@@ -241,7 +240,6 @@ npm run build - Build for production
 npm run preview - Preview production build locally
 npm run lint - Run ESLint for code quality
 🏗️ Project Structure
->>>>>>> 325776c6b06e9d23de62b7c7053d738e0dbb5884
 src/
 ├── components/          # Reusable UI components
 │   └── ui/             # shadcn/ui components
@@ -251,8 +249,6 @@ src/
 ├── hooks/              # Custom React hooks
 ├── lib/                # Utility functions
 └── main.tsx           # Application entry point
-<<<<<<< HEAD
-```
 
 ## 🎨 Design Features
 
@@ -291,7 +287,6 @@ The website includes a contact form with:
 ```bash
 npm run build
 # Upload the 'dist' folder to your hosting provider
-```
 
 ## 🔧 Customization
 
@@ -300,8 +295,7 @@ Products are currently stored in the component state. To add new products:
 1. Navigate to `src/pages/Index.tsx`
 2. Find the `products` array in each category
 3. Add your product following this structure:
-```typescript
-=======
+
 🎨 Design Features
 Color Scheme
 Primary Colors: Bright gradients (purple, pink, blue)
@@ -335,7 +329,6 @@ Products are currently stored in the component state. To add new products:
 Navigate to src/pages/Index.tsx
 Find the products array in each category
 Add your product following this structure:
->>>>>>> 325776c6b06e9d23de62b7c7053d738e0dbb5884
 {
   id: number,
   name: string,
@@ -343,8 +336,7 @@ Add your product following this structure:
   image: string,
   category: string
 }
-<<<<<<< HEAD
-```
+
 
 ### Changing Colors
 The color scheme uses Tailwind CSS classes. Main colors can be updated by modifying:
@@ -370,19 +362,7 @@ To add new sections:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-=======
-Changing Colors
-The color scheme uses Tailwind CSS classes. Main colors can be updated by modifying:
 
-Gradient backgrounds: bg-gradient-to-* classes
-Button colors: bg-* and hover:bg-* classes
-Text colors: text-* classes
-Adding New Sections
-To add new sections:
-
-Create the section in src/pages/Index.tsx
-Add navigation link in the header
-Implement smooth scrolling behavior
 🤝 Contributing
 Fork the project
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -391,4 +371,3 @@ Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 📄 License
 This project is open source and available under the MIT License.
->>>>>>> 325776c6b06e9d23de62b7c7053d738e0dbb5884
