@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # TechTonic - Modern Tech E-commerce Website
 
 A vibrant, modern, and fully responsive tech e-commerce website built with React, TypeScript, and Tailwind CSS. TechTonic features a bright, colorful design with smooth animations and an intuitive shopping experience.
