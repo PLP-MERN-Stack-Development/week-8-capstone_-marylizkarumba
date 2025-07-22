@@ -43,6 +43,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// ✅ Root route
+app.get('/', (req, res) => {
+  res.send('✅ Techtonic API is live');
+});
+
 // Error handling
 app.use((err, req, res, next) => {
   console.error(err.stack);
