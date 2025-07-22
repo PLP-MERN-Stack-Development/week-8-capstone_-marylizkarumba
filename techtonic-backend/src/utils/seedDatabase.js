@@ -9,13 +9,13 @@ const connectAndSeed = async () => {
     console.log('Connected to MongoDB');
 
     // Create admin user
-    const adminExists = await User.findOne({ email: 'admin@techtonic.com' });
+    const adminExists = await User.findOne({ email: 'techtonic792@gmail.com' });
     if (!adminExists) {
       await User.create({
         name: 'Admin User',
-        email: 'admin@techtonic.com',
+        email: 'techtonic792@gmail.com',
         password: 'admin123',
-        phone: '+254712345678',
+        phone: '+254797552830',
         role: 'admin'
       });
       console.log('Admin user created');
