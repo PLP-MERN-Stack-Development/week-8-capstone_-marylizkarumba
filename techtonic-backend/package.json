@@ -8,6 +8,7 @@
     "seed": "node src/utils/seedDatabase.js"
   },
   "dependencies": {
+    "compression": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^4.21.2",
